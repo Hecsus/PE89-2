@@ -1,0 +1,20 @@
+[
+  {
+    "prueba": 1,
+    "bytes_utf8": 8,
+    "sha256_mensaje": "04fc6f36f7a6b9cf10fbd54e41bb03c28cdc0dcee7e1c8362e5da7b0c4a3fb5e",
+    "resultado": "recuperación exacta en Docker"
+  },
+  {
+    "prueba": 2,
+    "bytes_utf8": 45,
+    "sha256_mensaje": "5d95fd47df9237dd4bf6f010607db6fb214c591ef7791740578b0dfbbf596cc7",
+    "resultado": "recuperación exacta en Docker"
+  },
+  {
+    "prueba": 3,
+    "bytes_utf8": 10414,
+    "sha256_mensaje": "075246b02660101d636de681d3e8d7c9b03ad7d8ef53221f591a03489cb6d07f",
+    "resultado": "recuperación exacta en Docker"
+  }
+]

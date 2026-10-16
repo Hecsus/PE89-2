@@ -1,0 +1,2 @@
+$ openssl verify -CAfile CA_laboratorio_PE89_2.crt certificado_servidor_PE89_2.crt
+certificado_servidor_PE89_2.crt: OK

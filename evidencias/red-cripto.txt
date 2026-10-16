@@ -1,0 +1,51 @@
+$ docker network inspect red-cripto
+[
+    {
+        "Name": "red-cripto",
+        "Id": "3eed623ea55b76fc86e3bb8580315dfedcacab422ca543ba1946c38087c3868e",
+        "Created": "2026-10-16T09:41:42.390554125+02:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.0.0/16"
+                }
+            ]
+        },
+        "Internal": true,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "92b1f065ab1e5e272871c8678712ab2c0bf452987e2e405250a107e68abcc5c8": {
+                "Name": "bob",
+                "EndpointID": "6f1f005dc2169df7787cb70fe63929c3e9fc781ddca472b86601718bbb01d43c",
+                "MacAddress": "7e:9f:81:7f:ca:a8",
+                "IPv4Address": "172.28.0.10/16",
+                "IPv6Address": ""
+            },
+            "c84e80b2c0a43199a76f0b05b9069f5bddea79830de50f7fa2cdcab71d991a10": {
+                "Name": "alice",
+                "EndpointID": "cccc17da0e13140902444d1d0fe153efe0339d1b369a5cab367be9b5d95813f4",
+                "MacAddress": "d6:c6:9d:6e:ac:e3",
+                "IPv4Address": "172.28.0.20/16",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {},
+        "Labels": {
+            "com.docker.compose.config-hash": "e02335b766b7f9c751c91f00306ba86309a7669e7ebf3515db104689a57b60cb",
+            "com.docker.compose.network": "red-cripto",
+            "com.docker.compose.project": "lab-dh-xor",
+            "com.docker.compose.version": "2.40.3"
+        }
+    }
+]

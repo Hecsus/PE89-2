@@ -1,0 +1,4 @@
+$ docker compose ps
+NAME      IMAGE              COMMAND            SERVICE   CREATED         STATUS         PORTS
+alice     python:3.11-slim   "sleep infinity"   alice     5 seconds ago   Up 4 seconds   
+bob       python:3.11-slim   "sleep infinity"   bob       5 seconds ago   Up 4 seconds   

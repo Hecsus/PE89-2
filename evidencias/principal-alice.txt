@@ -1,0 +1,7 @@
+Introduce tu número secreto (a), de 2 a 250: [Local Alice] a = 7 | A = 71
+[*] Conectando con Bob (172.28.0.10:5000)...
+[Red Pública] Enviada A = 71 | Recibida B = 150
+[Local Alice] K = 158; no se transmite
+Escribe el mensaje para Bob: [Mensaje original] Hola Bob
+[Cifrado Hex] D6 F1 F2 FF BE DC F1 FC
+[+] Mensaje enviado

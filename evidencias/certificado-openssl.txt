@@ -1,0 +1,72 @@
+$ openssl x509 -in certificado_servidor_PE89_2.crt -text -noout -fingerprint -sha256
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2300585473 (0x89202601)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=ES, O=CETI Formacion, OU=Laboratorio de Criptografia, CN=CETI Lab Root CA 2026
+        Validity
+            Not Before: Oct 16 06:21:14 2026 GMT
+            Not After : Oct 16 06:21:14 2027 GMT
+        Subject: C=ES, O=CETI Formacion, OU=PE 89.2, CN=servidor.pe89.local
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:a6:66:21:a8:8b:bc:9f:10:fa:bf:5e:80:2a:d7:
+                    23:38:ec:64:6e:e1:6a:78:a5:25:0f:3e:20:a1:96:
+                    33:e6:5f:c5:a6:98:b8:2a:89:7e:31:96:a5:17:54:
+                    40:a2:e3:a0:eb:ec:47:fe:0c:9f:39:ee:14:67:f8:
+                    c0:59:22:a0:64:7e:65:c3:76:40:34:3f:cd:93:cd:
+                    c6:c8:94:e7:16:ef:19:a9:a9:96:94:b9:0d:24:2c:
+                    9f:6d:44:87:2f:73:30:fe:35:e3:70:1f:7b:12:40:
+                    05:a3:71:49:f1:f0:fb:1c:25:69:f8:c4:5d:e1:db:
+                    f3:a9:1a:65:4b:f8:08:83:f1:77:c1:23:9b:a7:08:
+                    10:94:44:db:19:f6:98:67:d8:5d:ef:a0:9e:fe:3e:
+                    a8:5f:db:8a:d3:36:82:ad:e7:1e:79:30:b8:3c:d8:
+                    dc:2b:60:12:dc:f5:a8:98:70:b4:82:25:78:be:3b:
+                    2b:a5:19:a5:a9:2e:1b:69:6b:6d:78:d4:e3:3b:63:
+                    9b:8c:07:c9:8a:ca:05:8e:7d:b8:52:4c:39:12:09:
+                    6e:59:29:69:f1:6a:20:d5:91:95:20:c6:5f:f2:87:
+                    dd:f7:75:af:91:3a:20:cf:f7:89:da:a4:83:af:68:
+                    54:6d:06:77:13:10:23:05:de:48:5f:79:3e:f0:a9:
+                    29:a9
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Subject Alternative Name: 
+                DNS:servidor.pe89.local, DNS:www.servidor.pe89.local, IP Address:172.28.0.30
+            X509v3 Subject Key Identifier: 
+                24:F8:7E:EA:96:7A:FA:85:AD:FC:D5:FB:22:04:86:0C:9F:A4:6A:3C
+            X509v3 Authority Key Identifier: 
+                78:4F:21:D0:3E:5D:7E:28:7D:63:DA:1F:C0:61:BC:ED:EE:CD:8E:0A
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        52:dd:a6:39:c1:1c:84:95:f2:f8:d2:9e:24:fc:9a:c1:8a:cc:
+        0a:df:6a:f7:30:97:b3:39:40:03:1d:89:89:b5:f3:94:35:fd:
+        39:31:55:3d:42:8e:1e:18:38:4c:61:88:63:f8:0c:df:71:e2:
+        79:33:a1:77:72:a6:4d:0e:d4:86:f4:16:a7:b3:18:3c:52:d6:
+        7a:40:9b:80:fb:00:ab:63:08:6f:32:f5:b1:c0:09:fb:60:3e:
+        b4:14:69:b1:c3:80:71:fe:a6:2d:6d:87:1c:a2:f0:47:83:5f:
+        2e:06:72:3c:23:b0:de:7a:df:63:a9:23:83:dc:e1:73:5a:e0:
+        73:fe:28:18:91:c3:1f:d1:aa:15:42:56:c1:75:96:6f:f9:50:
+        32:75:4d:ee:ae:be:c0:5f:c4:a5:db:99:25:08:22:e1:76:c8:
+        aa:c9:47:37:0d:09:07:5d:05:1b:13:04:d5:e2:f6:7f:78:c2:
+        b5:71:ba:15:d4:15:b7:28:7e:34:45:6e:0a:d9:50:e8:2f:2b:
+        60:bf:7e:c5:40:4f:0c:c1:84:d7:9d:09:22:52:1d:8b:9d:4a:
+        a7:44:af:8c:d0:d1:0e:b1:9d:39:76:5d:7c:ef:ec:53:90:15:
+        4e:ac:d2:93:5f:b9:ca:32:6a:14:2b:0d:f2:6a:c0:be:04:37:
+        ca:07:3c:18:ee:67:d2:3b:f1:4f:5f:89:65:89:2b:27:ce:68:
+        ae:e8:60:c1:94:4e:1e:23:3b:63:ba:bf:9e:7b:a7:b8:a3:ca:
+        86:39:e3:f1:55:ec:cf:98:f1:fb:09:cb:c0:56:50:74:f1:50:
+        79:db:30:26:8e:df:a8:b5:5e:24:3d:2a:eb:c4:5c:b5:5e:8d:
+        2f:27:4a:90:ca:9b:8f:a0:67:99:0b:9a:ec:c7:92:e1:5c:d8:
+        52:a7:5b:6d:f0:10:c8:a0:7a:d4:b4:d2:be:8b:2d:50:f0:ba:
+        44:2f:19:6a:d4:f5:2c:47:cc:ba:24:f8:7c:c5:ee:a8:79:85:
+        a3:aa:7e:b2:13:83
+sha256 Fingerprint=C2:6C:98:F6:63:81:45:0C:04:9A:BA:29:72:B7:FB:CD:24:DB:54:31:27:95:E5:CB:BC:F0:06:82:56:1E:D7:14

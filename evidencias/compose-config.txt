@@ -1,0 +1,48 @@
+$ docker compose config
+name: lab-dh-xor
+services:
+  alice:
+    command:
+      - sleep
+      - infinity
+    container_name: alice
+    hostname: alice
+    image: python:3.11-slim
+    networks:
+      red-cripto:
+        ipv4_address: 172.28.0.20
+    stdin_open: true
+    tty: true
+    volumes:
+      - type: bind
+        source: /home/kali/PE89.2/lab-dh-xor/scripts
+        target: /app
+        bind:
+          create_host_path: true
+    working_dir: /app
+  bob:
+    command:
+      - sleep
+      - infinity
+    container_name: bob
+    hostname: bob
+    image: python:3.11-slim
+    networks:
+      red-cripto:
+        ipv4_address: 172.28.0.10
+    stdin_open: true
+    tty: true
+    volumes:
+      - type: bind
+        source: /home/kali/PE89.2/lab-dh-xor/scripts
+        target: /app
+        bind:
+          create_host_path: true
+    working_dir: /app
+networks:
+  red-cripto:
+    name: red-cripto
+    ipam:
+      config:
+        - subnet: 172.28.0.0/16
+    internal: true
